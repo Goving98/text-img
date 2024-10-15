@@ -11,7 +11,7 @@ This repository hosts a text-to-image generator app built using Streamlit and Hu
 1. Clone the repository
 ```bash
 git clone https://github.com/Goving98/text-img.git
-cd your-repo-name
+cd text-img
 ```
 
 
@@ -19,7 +19,6 @@ cd your-repo-name
 
 2. Create a virtual environment
 ```bash
-Copy code
 python -m venv venv
 source venv/bin/activate  # For Linux/macOS
 venv\Scripts\activate     # For Windows
@@ -30,7 +29,6 @@ venv\Scripts\activate     # For Windows
 
 3. Install dependencies
 ```bash
-Copy code
 pip install -r requirements.txt
 ```
 
@@ -39,7 +37,6 @@ pip install -r requirements.txt
 
 4. Run the Streamlit app
 ```bash
-Copy code
 streamlit run app.py
 ```
 
