@@ -32,6 +32,7 @@ venv\Scripts\activate     # For Windows
 pip install -r requirements.txt
 ```
 
+Make sure to place your hugging face Access token at the place of "{os.getenv('HUGGING_FACE_TOKEN')}" to run the model
 
 
 
