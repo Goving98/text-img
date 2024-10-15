@@ -4,9 +4,10 @@ import io
 from PIL import Image, ImageFilter
 import random
 from io import BytesIO
+import os
 
 API_URL = "https://api-inference.huggingface.co/models/black-forest-labs/FLUX.1-dev"
-headers = {"Authorization": "Bearer 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"}
+headers = {"Authorization": f"Bearer {os.getenv('HUGGING_FACE_TOKEN')}"}
 
 
 def query(payload):
