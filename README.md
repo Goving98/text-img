@@ -10,7 +10,7 @@ This repository hosts a text-to-image generator app built using Streamlit and Hu
 
 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/Goving98/text-img.git
 cd your-repo-name
 ```
 
